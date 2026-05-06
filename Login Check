@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class LoginTest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String correctPassword = "admin123";
+        System.out.print("Enter password: ");
+        String enteredPassword = sc.nextLine();
+
+        if (enteredPassword == correctPassword) {
+            System.out.println("Login successful");
+        } else {
+            System.out.println("Invalid password");
+        }
+    }
+}
