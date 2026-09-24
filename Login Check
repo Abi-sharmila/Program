@@ -6,7 +6,7 @@ public class LoginTest {
         System.out.print("Enter password: ");
         String enteredPassword = sc.nextLine();
 
-        if (enteredPassword == correctPassword) {
+        if (enteredPassword,equals(correctPassword)) {
             System.out.println("Login successful");
         } else {
             System.out.println("Invalid password");
